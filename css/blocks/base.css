@@ -54,7 +54,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: url(/img/main/1.png) center top no-repeat, url(/img/main/2.png) right bottom 306px no-repeat;
+  background: url(../../img/main/1.png) center top no-repeat, url(../../img/main/2.png) right bottom 306px no-repeat;
   
 }
 
