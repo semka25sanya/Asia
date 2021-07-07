@@ -1,0 +1,49 @@
+.social__list {
+  margin-right: 74px;
+  }
+  .social-list__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    }
+    
+    .social-list__item:last-child {
+      margin-right:0;
+    }
+  
+    .social-list__link {
+      display: block;
+      text-decoration: 0;
+      width: 36px;
+      height: 36px;
+      background: center center no-repeat;
+    }
+    
+  
+    
+   .social-list__item--icon--telegram .social-list__link {
+  background-image: url(../../img/main/t.png);
+  }
+   .social-list__item--icon--telegram:hover .social-list__link {
+  background-image: url(../../img/main/t2.png);
+  }
+  .social-list__item--icon--vk .social-list__link{
+  background-image: url(../../img/main/vk.png);
+  }
+  .social-list__item--icon--vk:hover .social-list__link{
+  background-image: url(../../img/main/vk2.png);
+  }
+  
+   .social-list__item--icon--fb .social-list__link{
+  background-image: url(../../img/main/facebook1.png);
+  }
+  .social-list__item--icon--fb:hover .social-list__link{
+  background-image: url(../../img/main/f2.png);
+  }
+  
+  .social-list__item--icon--insta .social-list__link{
+  background-image: url(../../img/main/in.png);
+  }
+   .social-list__item--icon--insta:hover .social-list__link{
+  background-image: url(../../img/main/in2.png);
+  }

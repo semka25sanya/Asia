@@ -1,0 +1,21 @@
+.main-title {
+  display: flex;
+  align-items: flex-start;
+  font-weight: bold;
+font-size: 36px;
+line-height: 49px;
+margin-bottom: 51px;
+}
+
+.title-dark {
+  color: #000;
+  margin-bottom: 37px;
+}
+
+.main-title__img {
+  display: flex;
+  Width:21px;
+Height:28px;
+margin-left:15px;
+margin-top: 12px;
+}

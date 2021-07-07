@@ -1,0 +1,35 @@
+.partners {
+  background: #F4F5F5;
+}
+
+.partners__title {
+  font-weight: bold;
+font-size: 48px;
+color: #1A1B1E;
+padding: 80px 0;
+}
+
+.partners__icons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 60px;
+}
+.partners__icon {
+margin-bottom: 60px;
+  margin-left: 15px;
+  
+}
+.partners__link {
+  filter: grayscale(100%);
+ display: flex;
+  text-decoration: none;
+  width: 220px;
+  height: 49px;
+  align-items: center;
+  justify-content: center; 
+}
+  
+.partners__link:hover {
+  filter: grayscale(0);
+}

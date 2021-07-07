@@ -1,0 +1,41 @@
+.news__list {
+  display: flex;
+    justify-content: space-between;
+}
+
+.new {
+  flex: 1;
+  vertical-align: top;
+  position: relative;
+  padding-right: 26px;
+  margin-bottom: 57px;
+  
+}
+.new:last-child {
+  padding-right: 0;
+}
+.new__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.new__content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 85px 5px 32px ;
+  
+}
+.new__title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 5px;
+}
+.new__text {
+  font-size: 16px;
+  line-height: 24px;
+}

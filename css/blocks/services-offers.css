@@ -1,0 +1,33 @@
+.services-main {
+  background: #fff;
+  padding-bottom: 20px;
+}
+.services-offers__img {
+  display: block;
+}
+.services-offers__list {
+  display: flex;
+  flex-direction: column;
+  color: #303030;
+  margin-bottom: 70px;
+  padding-top: 98px;
+  
+}
+.services-offers__title{
+  font-weight: bold;
+font-size: 36px;
+margin-bottom: 28px;
+}
+.services-offers__text{
+line-height: 27px;
+width: 638px;
+margin-bottom: 52px;
+}
+.services-offers__item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.services-offers__item:last-child {
+margin-bottom: 0;
+}

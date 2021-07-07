@@ -1,0 +1,17 @@
+.hero__title {
+  max-width: 511px;
+  font-weight: bold;
+font-size: 72px;
+line-height: 98px;
+margin-bottom: 27px;
+}
+
+.hero__text {
+  font-size: 18px;
+line-height: 20px;
+margin-bottom: 51px;
+}
+
+.hero {
+  margin-bottom: 246px;
+}

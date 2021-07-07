@@ -1,0 +1,78 @@
+.workhours__link {
+  justify-content: flex-end;
+}
+.workhours__link:hover {
+  color: #DA0100;
+}
+
+.contacts__workhours{
+  text-align: right;
+}
+.contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+  margin-bottom: 7px;
+
+}
+
+.contacts__link {
+  font-size: 13px;
+  text-decoration: underline;
+  color: #FF3D00 ;
+  display: block;
+  padding-bottom: 10px;
+
+}
+.contacts__workhours{
+  position:relative;
+  
+  
+}
+.contacts__workhours:hover .contacts__workhours-tooltip{
+  display: block;
+  right: 0;
+  opacity: 1;
+
+}
+.contacts__workhours-tooltip {
+  position: absolute;
+  margin-top: 10px;
+  font-size: 13px;
+  max-width: 160px;
+  max-height: 80px;
+  padding: 15px 19px;
+  line-height: 21px;
+  background: #CDD1D2;
+  color: #000;
+  border-radius: 3%;
+  top: 100%;
+  display: none;
+  right: -9999px;
+  opacity: 0;
+  transition: opacity .4s;
+  text-align: start;
+  
+}
+
+.contacts__workhours-tooltip:before {
+content: "";
+display: block;
+height: 30px;
+left: 0;
+right: 0;
+top: -29px;
+position: absolute;
+}
+
+.contacts__workhours-tooltip:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border: 11px solid transparent;
+  border-top-width: 0;
+  border-bottom-color:#CDD1D2; ;
+  position: absolute;
+  bottom: 100%;
+  right: 40px;
+}

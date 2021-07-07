@@ -1,0 +1,42 @@
+.forms {
+  background: #F4F5F5;
+  color: #666;
+}
+.forms__tags {
+  display: flex;
+  margin-bottom: 20px;
+  
+}
+.forms__title {
+  color: #1A1B1E;
+  font-weight: bold;
+font-size: 48px;
+padding: 60px 0;
+}
+.forms__textarea {
+  width: 1142px;
+  margin-bottom: 36px;
+  min-height: 235px;
+  font-size: 18px;
+  
+}
+
+.forms__question {
+  color: #1A1B1E;
+  font-weight: normal;
+font-size: 18px;
+width: 36%;
+}
+
+.forms__header {
+ margin-bottom: 26px;
+ display: flex;
+ justify-content: space-between;
+}
+
+
+.forms__buttons {
+  display: flex;
+ justify-content: flex-end;
+  padding-bottom: 60px;
+}

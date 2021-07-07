@@ -1,0 +1,14 @@
+.rewiews_offer {
+  background: #FFB6C1;
+  background: url(../../img/rewievs/Rectangle\ .png) center top no-repeat;
+  min-height:363px;
+  display: flex;
+  align-items: center;
+}
+
+.rewiews_offer__title {
+  font-size: 57px;
+color: #fff;
+font-weight: bold;
+
+}

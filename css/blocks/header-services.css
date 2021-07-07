@@ -1,0 +1,44 @@
+.header-services {
+  background: url(../../img/services/headline\ 1.png) center top no-repeat;
+  min-height: 412px;
+  margin-top:0;
+  padding-top: 20px;
+}
+
+.header__title {
+  font-weight: bold;
+  margin-top: 85px;
+  font-size: 72px;
+}
+
+.header__breadcrumbs {
+  margin-top: 103px;
+  padding-bottom: 15px;
+}
+
+.breadcrumbs__list {
+  display: flex;
+}
+
+.breadcrumbs__link {
+  font-size: 14px;
+line-height: 19px;
+color: #9A9A9A;
+}
+
+.breadcrumbs__link--active {
+  font-weight: bold;
+}
+
+.breadcrumbs__item:after {
+ content: ' /   ';
+ color: #9A9A9A;
+}
+
+.breadcrumbs__item:last-child:after {
+  display: none;
+}
+
+.breadcrumbs__link:hover {
+color: #DA0100;
+}

@@ -1,0 +1,20 @@
+.people {
+  background: #fff;
+  color: #1A1B1E;
+  
+  padding-bottom:30px ;
+  display: flex;
+}
+.people__list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 76px;
+  column-count: 2;
+  column-gap: 30px;
+  margin-bottom: 45px;
+  margin-top: 94px;
+  max-height: 1378px;
+  justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+}

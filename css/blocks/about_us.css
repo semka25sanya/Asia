@@ -1,0 +1,20 @@
+.about_us{
+  display: flex;
+  justify-content: center;
+}
+
+.about_us__content {
+  max-width: 785px;
+
+padding: 70px 81px;
+
+  background: url(../../img/main/mountains.png) center center / cover no-repeat;
+  margin-bottom: 20px;
+}
+.about_us__text {
+  font-size: 16px;
+line-height: 27px;
+color: #060606;
+margin-bottom: 61px;
+max-width: 502px;
+}

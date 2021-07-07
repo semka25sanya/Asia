@@ -1,0 +1,138 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body{
+  background-color: #001821;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-weight: 14px;
+  color: #fff;
+-webkit-font-smoothing: antialiased;
+-moz-osk-font-smoothing: grayscale;
+}
+.button {
+cursor: pointer;
+}
+a {
+color: inherit;
+}
+
+p {
+margin-top: 0;
+}
+
+* {
+box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  font-weight: normal;
+
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+.container {
+  margin: 0 auto;
+  width: 1142px;
+}
+
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: url(/img/main/1.png) center top no-repeat, url(/img/main/2.png) right bottom 306px no-repeat;
+  
+}
+
+
+.tag{
+  background: #F2D4C9;
+ background:  #E7E7E7;
+border-radius: 35px;
+color: #303030;
+text-decoration: none;
+padding: 10px 25px;
+}
+
+.tag--blue {
+  background: #B9EAE4;
+  padding: 9px 18px;
+  text-align: center;
+}
+
+
+
+.wrapper_welcome {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background: url(../../img/welcome/bg.png) center bottom/cover no-repeat;
+  
+}
+.welcome__logo {
+  content: url(../../img/welcome/лого.png);
+}
+.welcome__title {
+  margin-bottom: 70px;
+  font-size: 18px;
+line-height: 25px;
+}
+/* 
+.welcome__shadow {
+content: url(../../img/welcome/shades.png);
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+.welcome__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  animation: zoom 1s ease-in;
+  animation-fill-mode:forwards ;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(.7);
+  }
+20% {
+  transform: scale(1.15);
+}
+40% {
+    transform: scale(.9);
+  }
+60% {
+  
+    transform: scale(1.1);
+  }
+
+80% {
+  transform: scale(.95);
+}
+to {
+  opacity: 1;
+  transform: scale(1);
+}
